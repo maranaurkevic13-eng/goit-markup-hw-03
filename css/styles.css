@@ -154,7 +154,7 @@ img {
 
 .hero-title {
     margin: 0 auto 48px auto;
-    max-width: 469px;
+    max-width: 496px;
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -250,14 +250,7 @@ img {
     color: #434455;
 }
 
-/* section 3 */
-
-.team-container{
-    align-items: center;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
+/* section 3 */         
 
 .team {
     background: #F4F4FD;
@@ -282,13 +275,7 @@ img {
     gap: 24px;
     justify-content: center;
     list-style: none;                       
-}
-
-.team-icons {
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+}       
 
 .team-item {
     width: calc((100% - 72px) / 4);
@@ -297,10 +284,36 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-name-1 {    
+.team-icons {
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.team-name-mark {    
+    text-align: center;
+    margin-bottom: 8px;                 
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-name-tom {      
+    text-align: center;
+    margin-bottom: 8px;                 
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-name-camila { 
     text-align: center;
     margin-bottom: 8px;
-    padding: 0 65px;
     align-items: center;
     font-weight: 500;
     font-size: 20px;
@@ -309,10 +322,9 @@ img {
     color: #2e2f42;
 }
 
-.team-name-2 {      
+.team-name-daniel {      
     text-align: center;
-    margin-bottom: 8px;
-    padding: 0 88px;
+    margin-bottom: 8px;                       
     align-items: center;
     font-weight: 500;
     font-size: 20px;
@@ -321,57 +333,30 @@ img {
     color: #2e2f42;
 }
 
-.team-name-3 { 
+.team-descr-mark {
     text-align: center;
-    padding: 0 67px;
-    align-items: center;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    margin-top: 0;    
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.team-name-4 {      
+.team-descr-tom {
     text-align: center;
-    margin-bottom: 8px;
-    padding: 0 68.5px;
-    align-items: center;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    margin-top: 0;      
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.team-descr-1 {
+.team-descr-camila {
+    text-align: center;
+    margin-top: 0;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-descr-daniel {
     text-align: center;
     margin-top: 0;         
-    padding: 0 68px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.team-descr-2 {
-    text-align: center;
-    margin-top: 0;       
-    padding: 0 60px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.team-descr-3 {
-    text-align: center;
-    margin-top: 0;  
-    padding: 0 94.5px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.team-descr-4 {
-    text-align: center;
-    margin-top: 0;     
-    padding: 0 89.5px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -386,7 +371,10 @@ img {
 }
 
 .portfolio {
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+    padding-left: 156px;
 }
 
 .portfolio-title {
@@ -410,13 +398,14 @@ img {
 }
 
 .portfolio-icons {
+    padding: 32px 16px;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
 }
 
-.portfolio-item-title-1 {
-    padding: 32px 226px 8px 16px;
+.portfolio-item-title-banking {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -425,8 +414,8 @@ img {
     color: #2e2f42;
 } 
 
-.portfolio-item-title-2 {
-    padding: 32px 172px 8px 16px;
+.portfolio-item-title-cashlees {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -435,8 +424,8 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-item-title-3 {
-    padding: 32px 201px 8px 16px;
+.portfolio-item-title-meditation {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -445,8 +434,8 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-item-title-4 {
-    padding: 32px 231px 8px 16px;
+.portfolio-item-title-taxi {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -455,8 +444,8 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-item-title-5 {
-    padding: 32px 163px 8px 16px;
+.portfolio-item-title-screen {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -465,8 +454,8 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-item-title-6 {
-    padding: 32px 202px 8px 16px;
+.portfolio-item-title-online {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -475,8 +464,7 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-item-category-1 {
-    padding: 0 314px 32px 16px;
+.portfolio-item-category-banking {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -485,8 +473,7 @@ img {
     color: #434455;
 }
 
-.portfolio-item-category-2 {
-    padding: 0 269px 32px 16px;
+.portfolio-item-category-cashlees {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -495,8 +482,7 @@ img {
     color: #434455;
 }
 
-.portfolio-item-category-3 {
-    padding: 0 314px 32px 16px;
+.portfolio-item-category-meditation {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -505,8 +491,7 @@ img {
     color: #434455;
 }
 
-.portfolio-item-category-4 {
-    padding: 0 269px 32px 16px;
+.portfolio-item-category-taxi {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -515,8 +500,7 @@ img {
     color: #434455;
 }
 
-.portfolio-item-category-5 {
-    padding: 0 293px 32px 16px;
+.portfolio-item-category-screen {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -525,8 +509,7 @@ img {
     color: #434455;
 }
 
-.portfolio-item-category-6 {
-    padding: 0 269px 32px 16px;
+.portfolio-item-category-online {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
