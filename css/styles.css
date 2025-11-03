@@ -24,6 +24,10 @@ a {
     margin: 0 auto;
 }
 
+img {
+    display: block;
+}
+
 /* header */
 
 .page-header {
@@ -523,15 +527,19 @@ a {
 .page-footer {
     background-color: #2E2F42;
     max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
-    padding: 100px 1020px 100px 156px;
+    padding-right: 1020px;
+    padding-left: 156px;
     max-width: 100%;
     
 }
 
 .logo-additional {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -542,6 +550,8 @@ a {
 }
 
 .logo-additional-text {
+    margin-bottom: 16px;
+    display: inline-block;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -553,7 +563,6 @@ a {
 
 .footer-container-descr {
     max-width: 264px;
-    margin-top: 16px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em
